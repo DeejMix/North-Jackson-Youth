@@ -1,0 +1,236 @@
+
+body {
+  background-color: #e2e2e2;
+}
+#logo {
+  border-radius: 100px;
+  position: relative;
+  right: 130px;
+  bottom: 5px;
+  z-index: 0;
+  box-shadow: 5px 5px 20px #595959;
+}
+#moveBox {
+  position: relative;
+  left: 2000px;
+  background: linear-gradient(90deg, #aeb1af, #8c8f8e);
+  padding-top: 20px;
+  border-radius: 10px;
+  padding-bottom: 50px;
+  box-shadow:5px 5px 5px grey;
+}
+#moveBoxSub1, #moveBoxSub2, #moveBoxSub3, #moveBoxSub4, #moveBoxSub5 {
+   position: relative;
+  left: 100px;
+  background: linear-gradient(90deg, #aeb1af, #8c8f8e);
+  padding-top: 20px;
+  border-radius: 10px;
+  padding-bottom: 50px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+#navBox {
+  margin-top: -50px;
+  position: relative;
+  bottom: 500px;
+  
+}
+#navBoxSub1, #navBoxSub2, #navBoxSub3, #navBoxSub4, #navBoxSub5 {
+  margin-top: -50px;
+}
+#moveBox2 {
+  position: relative;
+  left: 100px;
+}
+#jumbotron-text-center {
+  z-index: -1;
+}
+.nav {
+  position: relative;
+  top: 20px;
+  left: 515px;
+  background: grey;
+  width: 560px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px darkGrey;
+}
+.nav-item {
+  color: white;
+}
+#title {
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+  right: 120px;
+  font-family: Indie Flower;
+  font-size: 40pt;
+}
+#title2 {
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+  font-family: Indie Flower;
+  right: 120px;
+  font-size: 40pt;
+}
+#welcome {
+  text-align: center;
+}
+#welcome_message/carousel {
+  position: relative;
+  bottom: 500px;
+}
+/*Map and Directions*/
+#mapcontain {
+  background: #ffecb2;
+  padding: 20px;
+  border: 10px inset #ffecb2;
+}
+#mapcontain_contain {
+  background: #ffecb2;
+  padding: 40px;
+  border: 10px outset #ffecb2;
+  box-shadow: 5px 5px 0px grey;
+}
+#mapdirectionstitle {
+  text-align: center;
+}
+#descriptionmapdirs {
+  text-align: center;
+}
+#right_filler_box {
+  background: #e2e2e2;
+  width: 300px;
+  height: 100%;
+  position: relative;
+  bottom: 128px;
+  left: 252px;
+}
+#right_filler_box_2 {
+  background: #e2e2e2;
+  width: 650px;
+  height: 600px;
+  position: relative;
+  bottom: 32px;
+}
+#right_filler_box_3 {
+  background: #e2e2e2;
+  width: 650px;
+  height: 350px;
+  position: relative;
+  bottom: 630px;
+  left: 47px;
+  top: 10px;
+  border-radius: 20px;
+  z-index: 0;
+  padding-bottom: 20px;
+  box-shadow: -5px 5px 5px grey;
+}
+#left-filler-box {
+  width: 650px;
+  height: 600px;
+  background: #ffecb2;
+  position: relative;
+  right: 500px;  
+  bottom: 32px;
+}
+#left-filler-box-2 {
+  width: 300px;
+  height: 100%;
+  background: #ffecb2;
+  position: relative;
+  right: 400px;
+  bottom: 128px;
+}
+#this_qtr_up_north {
+  text-align: center;
+}
+.event {
+  text-align: center;
+  list-style: none;
+}
+.breaker_line {
+  border: 1px solid grey;
+  width: 250px;
+  position: relative;
+  left: 161px;
+  bottom: 8px;
+}
+.breaker_line2 {
+  height: 2000px;
+  width: 1px;
+  border: 1px solid black;
+}
+#caption {
+  text-align: center;
+}
+#worshiptimes {
+  text-align: center;
+  background: #ffecb3;
+  box-shadow: 5px 5px 5px grey;
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  position: relative;
+  right: 411px;
+  width: 400px;
+  top: 20px;
+  border-radius: 20px;
+}
+
+#worshiptable {
+  position: relative;
+  left: 10px;
+}
+td,
+th {
+  padding-bottom: 20px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(white, grey);
+
+  text-align: center;
+}
+#line {
+  border: 1px solid black;
+}
+#pictures {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+img {
+  border-radius: 20px;
+  border: 3px solid grey;
+  box-shadow: 5px 5px 5px grey;
+}
+
+/*Image fitting for the carousel on index.html*/
+#nance {
+  width: inherit;
+  height: 400px;
+}
+#L2L19 {
+  width: inherit;
+  height: 400px;
+}
+#tweenweek {
+  width: inherit;
+  height: 400px;
+}
+#inTraining {
+  height: 400px;
+  width: inherit;
+}
+#aVirtualReality {
+  height: 400px;
+  width: inherit;
+}
+#inTrainingFitting {
+  width: 300px;
+  height: 300px;
+}
