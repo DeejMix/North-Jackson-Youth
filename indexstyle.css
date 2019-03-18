@@ -48,7 +48,7 @@ body {
 .nav {
   position: relative;
   top: 20px;
-  left: 515px;
+  left: 620px;
   background: grey;
   width: 560px;
   border-radius: 10px;
@@ -98,8 +98,13 @@ body {
 #descriptionmapdirs {
   text-align: center;
 }
+#adamtext {
+text-align: center;
+  position: relative;
+  right: 20px;
+}
 #right_filler_box {
-  background: #e2e2e2;
+  background: linear-gradient(#ffecb3, #ffe187);
   width: 300px;
   height: 100%;
   position: relative;
@@ -107,11 +112,14 @@ body {
   left: 252px;
 }
 #right_filler_box_2 {
-  background: #e2e2e2;
+  background: linear-gradient(#ffecb3, #ffe187);
   width: 650px;
-  height: 600px;
+  height: 850px;
   position: relative;
   bottom: 32px;
+}
+#adam {
+  align: center;
 }
 #right_filler_box_3 {
   background: #e2e2e2;
@@ -119,7 +127,7 @@ body {
   height: 350px;
   position: relative;
   bottom: 630px;
-  left: 47px;
+  left: 747px;
   top: 10px;
   border-radius: 20px;
   z-index: 0;
@@ -128,8 +136,8 @@ body {
 }
 #left-filler-box {
   width: 650px;
-  height: 600px;
-  background: #ffecb2;
+  height: 850px;
+  background: linear-gradient(#ffecb3, #ffe187);
   position: relative;
   right: 500px;  
   bottom: 32px;
@@ -137,7 +145,7 @@ body {
 #left-filler-box-2 {
   width: 300px;
   height: 100%;
-  background: #ffecb2;
+  background: linear-gradient(#ffecb3, #ffe187);
   position: relative;
   right: 400px;
   bottom: 128px;
@@ -173,15 +181,15 @@ body {
   padding-left: 25px;
   padding-bottom: 25px;
   position: relative;
-  right: 411px;
-  width: 400px;
+  right: 801px;
+  width: 475px;
   top: 20px;
   border-radius: 20px;
 }
 
-#worshiptable {
+#table {
   position: relative;
-  left: 10px;
+  left: 20px;
 }
 td,
 th {
@@ -193,7 +201,7 @@ th {
   bottom: 0;
   width: 100%;
   background: linear-gradient(white, grey);
-
+z-index: 2;
   text-align: center;
 }
 #line {
@@ -208,7 +216,15 @@ img {
   border: 3px solid grey;
   box-shadow: 5px 5px 5px grey;
 }
-
+#faq_image {
+  box-shadow: 0px 0px 0px white;
+  position: relative;
+  right: 100px;
+}
+.faq_text {
+  position: relative;
+  right: 50px;
+}
 /*Image fitting for the carousel on index.html*/
 #nance {
   width: inherit;
@@ -222,15 +238,43 @@ img {
   width: inherit;
   height: 400px;
 }
-#inTraining {
+#LATrip2 {
   height: 400px;
-  width: inherit;
+width: 100%;
+  position: relative;
+  right: 20px;
+}
+#latrip2 {
+position: relative;
+  left: 10px;
 }
 #aVirtualReality {
   height: 400px;
   width: inherit;
 }
 #inTrainingFitting {
-  width: 300px;
-  height: 300px;
+position: relative;
+  right: 0px;
+}
+#virtualreality {
+  position: relative;
+  right: 30px;
+}
+#louisiana {
+  position: relative;
+  right: 15px;
+}
+#dads_and_donuts {
+  position: relative;
+  left: 10px;
+}
+#goodys {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  right: 25px;
+}
+#spiritual_things {
+  position: relative;
+  left: 5px;
 }
