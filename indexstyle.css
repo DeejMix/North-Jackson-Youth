@@ -11,7 +11,7 @@ body {
 }
 #moveBox {
   position: relative;
-  left: 2000px;
+  left: 0px;
   background: linear-gradient(90deg, #aeb1af, #8c8f8e);
   padding-top: 20px;
   border-radius: 10px;
