@@ -57,6 +57,7 @@ body {
   width: 560px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px darkGrey;
+  z-index: 2;
 }
 .nav-item {
   color: white;
