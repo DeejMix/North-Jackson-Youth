@@ -10,8 +10,6 @@ body {
   box-shadow: 5px 5px 20px #595959;
 }
 #moveBox {
-  position: relative;
-  left: 0px;
   background: linear-gradient(90deg, #aeb1af, #8c8f8e);
   padding-top: 20px;
   border-radius: 10px;
