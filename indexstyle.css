@@ -25,7 +25,12 @@ body {
   right: 130px;
   font-size: 40pt;
 }
-#moveBox {
+#moveBox, 
+#moveBoxSub1,
+#moveBoxSub2,
+#moveBoxSub3,
+#moveBoxSub4,
+#moveBoxSub5 {
   background: linear-gradient(90deg, #aeb1af, #8c8f8e);
   padding-top: 20px;
   border-radius: 10px;
@@ -34,19 +39,7 @@ body {
   box-shadow: 5px 5px 5px grey;
   width: 100%;
 }
-#moveBoxSub1,
-#moveBoxSub2,
-#moveBoxSub3,
-#moveBoxSub4,
-#moveBoxSub5 {
-  position: relative;
-  left: 100px;
-  background: linear-gradient(90deg, #aeb1af, #8c8f8e);
-  padding-top: 20px;
-  border-radius: 10px;
-  padding-bottom: 50px;
-  box-shadow: 5px 5px 5px grey;
-}
+
 
 #navBox {
   margin-top: -50px;
