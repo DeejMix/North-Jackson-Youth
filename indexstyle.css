@@ -44,7 +44,6 @@ body {
 }
 #moveBox2 {
   position: relative;
-  left: 100px;
 }
 #jumbotron-text-center {
   z-index: -1;
