@@ -14,6 +14,7 @@ body {
   padding-top: 20px;
   border-radius: 10px;
   padding-bottom: 50px;
+  padding-right: -20px;
   box-shadow: 5px 5px 5px grey;
 }
 #moveBoxSub1,
@@ -41,9 +42,6 @@ body {
 #navBoxSub4,
 #navBoxSub5 {
   margin-top: -50px;
-}
-#moveBox2 {
-  position: relative;
 }
 #jumbotron-text-center {
   z-index: -1;
